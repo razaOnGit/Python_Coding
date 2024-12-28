@@ -41,8 +41,16 @@
 
 # print("The grade is:" ,grade)
 
-#break and continue
-for i in range(1,11):
-    print("5 X " ,i, " = ",5*i)
-    if(i==5):
-         break
+# for i in range(1,10): 
+
+#     if i == 5:
+#         break
+ 
+#     print(5*i)
+
+for i in range(1,10): 
+
+    if i == 5:
+        continue
+ 
+    print(5*i)
