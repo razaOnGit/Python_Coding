@@ -27,18 +27,22 @@
 # else:
 #     print("im inside while loop")
 
-marks = int(input("Enter the marks: "))
+# marks = int(input("Enter the marks: "))
+# if marks >= 90:
+#     grade = "A"
+# elif marks >= 75:
+#     grade = "B"
+# elif marks >= 50:
+#     grade = "C"
+# elif marks >= 35:
+#     grade = "D"
+# else:
+#     grade = "Fail"
 
-if marks >= 90:
-    grade = "A"
-elif marks >= 75:
-    grade = "B"
-elif marks >= 50:
-    grade = "C"
-elif marks >= 35:
-    grade = "D"
-else:
-    grade = "Fail"
+# print("The grade is:" ,grade)
 
-
-print("The grade is:" ,grade)
+#break and continue
+for i in range(1,11):
+    print("5 X " ,i, " = ",5*i)
+    if(i==5):
+         break
