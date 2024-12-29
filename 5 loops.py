@@ -48,9 +48,16 @@
  
 #     print(5*i)
 
-for i in range(1,10): 
+# for i in range(1,11): 
 
-    if i == 5:
-        continue
+#     if i == 5:
+#         continue    #skip the current iteration and continue with the next iteration
  
-    print(5*i)
+#     print("5 X ",i,"=",5*i)
+
+i=0
+while True:
+    print(i)
+    i=i+1
+    if (i%100==0):
+        break
